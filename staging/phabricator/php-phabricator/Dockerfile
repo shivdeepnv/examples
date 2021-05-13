@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 
 # Install all the required packages.
 RUN apt-get update && \
